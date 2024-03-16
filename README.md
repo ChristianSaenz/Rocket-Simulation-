@@ -1,3 +1,28 @@
-I created this project in January 2024 and wanted to create a bridge between my interest in physics and my interest in programming. This was my way of bringing those together I had to use some of my physics background to build the classes and logic of the Rockert class as well as the specific rocket information regarding the two different types of rockets I had set. 
-This project  helped with better understanding Java UI libraries and manipulating them to show the relationship between the rockets and updating their movement along the way. This led to one of the biggest struggles I had with this project and that was at times the classes and logic of my rocket attributes were correct, but it didn't always mean that it would work perfectly with the UI aspect.
-A perfect example was that I wanted the abort button to bring the rocket down and keep track of attitude, velocity, acceleration, etc. However, I wasn't able to get this functionality to work because no matter how many times I looked back at the class logic and methods for implementing the rocket to come down the UI aspect in my case Java Swing would not correspond with it which eventually led me to simply the project as I wanted to continue on others and possibly going back at a later time to implement this project on a web application.
+Overview:
+
+The Rocket Launch Simulation project is a Java-based desktop application that provides a visual and interactive simulation of rocket launches. Designed for both educational and entertainment purposes, the project showcases the physics and dynamics of rocketry, allowing users to initiate and control rocket launches while observing a variety of flight parameters in real time.
+
+Features:
+
+Real-time Simulation: Simulate rocket launches in real-time, visualizing the ascent and reset of rockets.
+
+User Interaction: Intuitive user interface with buttons to launch and abort the simulation, providing an interactive experience.
+
+Customizable Rocket Types: Support for two different rocket types with distinct properties, allowing users to explore the two scenarios.
+
+Flight Data Visualization: On-screen display of altitude, velocity, acceleration, thrust, and fuel metrics that update dynamically during the simulation.
+
+Physics-based Dynamics: Incorporates basic physics principles to calculate and display the motion of rockets.
+
+Data Handling:
+
+Manual Data Entry: Users can manually initiate rocket launches, simulating the behavior of solid and liquid fuel rockets based on predefined physics formulas.
+Tools Used:
+
+Java Swing: To create the graphical user interface and render the simulation's visual elements.
+
+Object-Oriented Programming: Utilized to structure the simulation logic, ensuring modularity and extensibility of the codebase.
+
+Timers and Threads: To manage the real-time aspects of the simulation and ensure a responsive user experience without freezing the UI.
+
+Math and Physics Calculations: Essential for accurately simulating the rocket's flight dynamics according to physical laws.
