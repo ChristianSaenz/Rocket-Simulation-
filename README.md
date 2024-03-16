@@ -6,7 +6,7 @@ Features:
 
 Real-time Simulation: Simulate rocket launches in real-time, visualizing the ascent and reset of rockets.
 
-User Interaction: Intuitive user interface with buttons to launch and abort the simulation, providing an interactive experience.
+User Interaction: User interface with buttons to launch and abort the simulation, providing an interactive experience.
 
 Customizable Rocket Types: Support for two different rocket types with distinct properties, allowing users to explore the two scenarios.
 
